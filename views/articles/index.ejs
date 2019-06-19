@@ -1,0 +1,7 @@
+<h1>Look at all these articles!</h1>
+
+<% articleData.forEach(function(article, index) { %>
+    <p><a href="/articles/<%= index %>"><%= article.title %></a></p>
+<% }); %>
+
+<a href="/articles/new">WRITE A NEW ARTICLE!!!</a>
